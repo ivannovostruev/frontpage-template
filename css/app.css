@@ -1,0 +1,59 @@
+@import url('complex-logo.css');
+@import url('background.css');
+@import url('about.css');
+
+
+/*----------  Basic  ----------*/
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+/*----------  Basic  ----------*/
+
+
+/*----------  Login form  ----------*/
+.form-wrapper {
+    padding: 150px 20px 50px;
+}
+
+.login-form {
+    max-width: 450px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+                rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.login-form input {
+    border-color: #f0f0f0;
+    background-color: #f0f0f0;
+}
+
+.forgot-password {
+    text-decoration: none;
+}
+/*----------  Login form  ----------*/
+
+
+/*----------  Support  ----------*/
+.support {
+    color: rgb(13, 110, 253);
+    cursor: pointer;
+}
+
+.support:hover {
+    color: rgb(10, 88, 202);
+}
+
+.support-contacts {
+    display: none;
+    margin-top: 15px;
+}
+
+.support-contacts a {
+    text-decoration: none;
+}
+/*----------  Support  ----------*/

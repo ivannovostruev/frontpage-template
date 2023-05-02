@@ -1,0 +1,26 @@
+.complex-logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    transition: .2s ease-in-out transform;
+}
+
+.main-logo:hover {
+    transform: rotate(-15deg) scale(1.2);
+}
+
+.main-logo img {
+    height: 35px;
+    width: auto;
+}
+
+.service-logo img {
+    height: 35px;
+    width: auto;
+    margin-left: 10px;
+}

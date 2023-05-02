@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+    <div class="background-wrap">
+        <div class="background-pattern"></div>
+        <div class="background-gradient"></div>
+    </div>
+    <div class="complex-logo">
+        <div class="main-logo">
+            <a href="#"><img src="/img/main_logo.svg" alt="Главный сайт"></a>
+        </div>
+        <div class="service-logo">
+            <a href="/"><img src="/img/service_logo.svg" alt="Сервис"></a>
+        </div>
+    </div>
+    <div class="form-wrapper">
+        <form class="login-form">
+            <h3 class="text-center mb-4">Войти в систему</h3>
+            <div class="form-floating mb-3">
+                <input type="text"
+                       name="username"
+                       value=""
+                       id="username"
+                       class="form-control "
+                       placeholder="Логин"
+                       autocomplete="username"
+                       autofocus
+                       required>
+                <label for="username">Логин</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password"
+                       name="password"
+                       id="password"
+                       class="form-control"
+                       placeholder="Пароль"
+                       autocomplete="password"
+                       required>
+                <label for="password">Пароль</label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3 p-3 w-100">Войти</button>
+            <div class="d-flex justify-content-between mt-3">
+                <span class="support">Техподдержка</span>
+                <a href="#" class="forgot-password">Забыли пароль?</a>
+            </div>
+            <div class="support-contacts">
+                Контакты техподдержки
+                <br>
+                <strong>📞 Телефон:</strong> <a href="tel:+11111111111">111-222</a>
+                <br>
+                <strong>💬 Телеграм:</strong> <a href="https://t.me/chat" target="_blank">@chat</a>
+                <br>
+                <strong>✉️ Email:</strong> <a href="mailto:support@company.com">support@company.com</a>
+                <br>
+                <strong>⏰ Режим работы:</strong> <span class="text-secondary">пн-пт 8:00 - 17:00</span>
+            </div>
+        </form>
+    </div>
+    <button id="about"><i class="bi bi-question-lg"></i></button>
+    <div id="about-popup">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="text-center mt-4 mb-4">Команда разработки</h2>
+        <ul class="">
+            <li><span>Менеджер проекта</span></li>
+            <li><span>Разработчик</span></li>
+            <li><span>Тестировщик</span></li>
+            <li><span>Дизайнер</span></li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
